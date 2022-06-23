@@ -19,6 +19,7 @@ const Dropdown = ({ items, title, liftingDdTextUp }) => {
     const ddTitle = ev.target.innerHTML
     activeDropDownItem(ddId)
     setDdTitle(ddTitle)
+
     liftingDdTextUp && liftingDdTextUp(ddTitle)
   }
     

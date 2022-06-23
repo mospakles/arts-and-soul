@@ -47,7 +47,7 @@ const ImageGallery = ({galleryImages}) => {
             <FontAwesomeIcon icon ={faCircleChevronLeft} className='btnPrev' onClick={prevSlide} />
             <FontAwesomeIcon icon ={faCircleChevronRight} className='btnNext' onClick={nextSlide} />
             <div className="fullScreenImage">
-                <img src={galleryImages[slideNumber].img} alt='' />
+                <img src={galleryImages[slideNumber].src} alt='' />
 
             </div>
         </div>
@@ -68,7 +68,7 @@ const ImageGallery = ({galleryImages}) => {
                     key={index}
                     onClick={ () => handleOpenModal(index) }
                     >
-                        <img src={slide.img} alt='' />
+                        <img src={slide.src} alt='' />
                     </div>
                 )
             })
