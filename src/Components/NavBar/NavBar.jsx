@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './NavBar.css'
-import { Button, Container, Form, Nav, Navbar } from 'react-bootstrap'
+import { Container, Nav, Navbar } from 'react-bootstrap'
 const NavBar = () => {
   return (
     <Navbar bg="dark" variant={'dark'} expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">Arts and Soul</Navbar.Brand>
+        <Navbar.Brand href="#"><h1  id='navbar-text'>Arts and Soul</h1></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -17,9 +17,9 @@ const NavBar = () => {
             <Nav.Link href="aboutus">AboutUs</Nav.Link>
             <Nav.Link href="collections">Collections</Nav.Link>
             <Nav.Link href="artists">Artists</Nav.Link>
-            <Nav.Link href="artists">Explore</Nav.Link>
+            <Nav.Link href="explore">Explore</Nav.Link>
           </Nav>
-          <Form className="d-flex">
+          {/* <Form className="d-flex">
             <Form.Control
               type="search"
               placeholder="How can we help you?"
@@ -27,7 +27,7 @@ const NavBar = () => {
               aria-label="Search"
             />
             <Button variant="outline-success">Search</Button>
-          </Form>
+          </Form> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

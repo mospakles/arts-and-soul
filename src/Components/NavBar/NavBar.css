@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+}
+
+#navbar-text {
+    text-shadow: 3px 3px rgb(88, 43, 24);
+    font-weight: bolder;
+}
+
+/* #navbarScroll {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+} */

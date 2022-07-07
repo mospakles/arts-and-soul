@@ -39,7 +39,7 @@ const ImageGallery = ({galleryImages}) => {
 
     return (
     <div>
-        <h1>Photo Gallery</h1>
+        <h1 id='image-text'>Photo Gallery</h1>
         
         {openModal &&
         <div className="sliderWrap">

@@ -2,8 +2,8 @@
     padding: 14px 21px;
     border-radius: 16px;
     cursor: pointer;
-    display: flex;
-    justify-content: flex-end;
+    /* display: flex;
+    justify-content: center; */
 }
 .button.matrix {
     background-color: white;

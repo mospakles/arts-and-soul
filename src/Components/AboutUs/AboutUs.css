@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(27, 24, 23);
+}
+
+
+.aboutus-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    text-align: center;
+    text-shadow: 3px 3px rgb(88, 43, 24);
+    padding: 2rem;
+    margin-top: 90px;
+}
+
+#aboutus-image {
+    width: 100%;
+    height: 500px;
+}
+
+#aboutus-text {
+    font-size: 1.2rem;
+    color: white;
+    /* text-align: center; */
+    margin: 2% 10%;
+}
+

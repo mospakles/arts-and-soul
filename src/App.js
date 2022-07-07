@@ -10,7 +10,6 @@ import images from "./Components/Images.json";
 import Dropdown from "./Components/Dropdown/Dropdown";
 
 function App() {
-
   const ddItems = [
     {
       id: 1,
